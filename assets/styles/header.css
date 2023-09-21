@@ -1,0 +1,47 @@
+header{
+    grid-area: header;
+
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+.profile{
+    border-radius: 50%;
+}
+.logo{
+    padding: .8rem;
+    background: var(--white-color);
+    border-radius: 50%;
+
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+/*
+SEARCH
+*/
+
+header form{
+    width: 100%;
+    flex: 1;
+}
+header form input[type="search"]{
+    color: var(--white-color);
+    background: var(--white-color-op28);
+
+    border: none;
+    border-radius: .4rem;
+    padding: 1.2rem 1.4rem;
+
+    width: 100%;
+}
+header form input[type="search"]::placeholder{
+    color: var(--white-color);
+}
+header form label{
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+}

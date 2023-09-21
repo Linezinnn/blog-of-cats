@@ -1,0 +1,10 @@
+main article h2 span:hover{
+    background: var(--cian-light-color);
+    transform: scale(1.1);
+}
+aside figure:hover{
+    padding: 8px;
+    background: var(--cian-light-color);
+    border-radius: 8px;
+    color: white;
+}

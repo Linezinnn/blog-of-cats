@@ -1,0 +1,10 @@
+footer{
+    grid-area: footer;
+    padding: 0;
+}
+footer p{
+    margin: 1.6rem auto;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--white-color);
+}

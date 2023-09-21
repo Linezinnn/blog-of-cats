@@ -1,0 +1,42 @@
+.content-container .container{
+    flex-direction: column;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+main article{
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+main .img-article{
+    border-radius: .5rem;
+    width: 100%;
+}
+main h2{
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+main article h2 div{
+    display: flex;
+    gap: 1.2rem;
+}
+main h2 div span{
+    height: 4rem;
+    width: 4rem;
+    background: var(--cian-dark-color);
+    border-radius: 50%;
+    margin-top: .8rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+    transition: 200ms;
+}
+main p{
+    font-size: 1.6rem;
+}

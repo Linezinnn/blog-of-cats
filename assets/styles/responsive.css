@@ -1,0 +1,24 @@
+@media (min-width: 780px) {
+    .content-container .container aside{
+        width: 884px;
+    }
+    .container{
+        padding: 1.2rem 10rem;
+    }
+    .content-container .container{
+        padding: 0;
+        flex-direction: row;
+        padding: 4.4rem 10rem 3.6rem;
+    }
+    .content-container .container main article{ 
+        padding: 0;
+    }
+    .content-container .container aside{
+        padding-top: 0;
+    }
+    .content-container .container main h2{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
